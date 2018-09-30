@@ -2,12 +2,11 @@ package com.company;
 
 import java.io.*;
 import java.util.Scanner;
-import  java.lang.reflect.*;
 
 
 public class Main {
 
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException {
+    public static void main(String[] args) throws ClassNotFoundException{
         int number = 0;
         String fileName = "";
         System.out.println("Введите строку ");
