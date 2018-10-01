@@ -20,10 +20,10 @@ public class Main {
         do {
             number = sc.nextInt();
             if (number == 1) {
-                fileName = "C:\\Users\\Тарасовы\\Reflection\\src\\StandartInvoker.txt";
+                fileName = "src\\StandartInvoker.txt";
             }
             if (number == 2) {
-                fileName = "C:\\Users\\Тарасовы\\Reflection\\src\\OtherInvoker.txt";
+                fileName = "src\\OtherInvoker.txt";
             }
 
 
