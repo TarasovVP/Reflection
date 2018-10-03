@@ -5,7 +5,7 @@ public class OtherInvoker implements Invoker {
     }
     @Override
     public void doSomething(String str, int i) {
-        StringBuilder strb = new StringBuilder(str);
-        System.out.print(strb.reverse().charAt(i));
+
+        System.out.print(str.charAt(str.length()-i));
     }
 }
