@@ -5,6 +5,6 @@ public class StandartInvoker implements Invoker{
     }
     @Override
     public void doSomething(String str, int i) {
-        System.out.print(str.charAt(i));
+        System.out.print(str.charAt(i-1));
     }
 }
