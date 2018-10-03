@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Введите строку ");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        System.out.println("Введите порядковый номер: ");
+        System.out.println("Введите номер элемента в строке: ");
         int num = sc.nextInt();
         System.out.println("Введите вариант решения:");
         System.out.println("1. Если необходимо взять символ с начала строки - нажмите 1:");
@@ -20,10 +20,10 @@ public class Main {
         do {
             number = sc.nextInt();
             if (number == 1) {
-                fileName = "C:\\Users\\Тарасовы\\Reflection\\src\\StandartInvoker.txt";
+                fileName = "src\\StandartInvoker.txt";
             }
             if (number == 2) {
-                fileName = "C:\\Users\\Тарасовы\\Reflection\\src\\OtherInvoker.txt";
+                fileName = "src\\OtherInvoker.txt";
             }
 
 
